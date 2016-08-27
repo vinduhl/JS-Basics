@@ -112,5 +112,5 @@ var innerFn = outerFn();
 
 //Now invoke innerFn.
 
-var innerFnValue = innerFn();
-console.log("innerFnValue = " + innerFnValue);
+console.log(innerFn());
+
